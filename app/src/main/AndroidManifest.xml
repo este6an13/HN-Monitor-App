@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
+        android:fullBackupContent="false"
         android:icon="@mipmap/ic_launcher"
         android:label="HN Monitor"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -28,5 +28,4 @@
     <uses-permission android:name="android.permission.BATTERY_OPTIMIZATION_RESTRICTED_BROADCASTS" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-
 </manifest>

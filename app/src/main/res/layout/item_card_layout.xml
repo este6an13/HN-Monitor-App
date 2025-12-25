@@ -24,4 +24,10 @@
         android:textSize="14sp"
         android:textColor="#FFFFFF" />
 
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:textSize="12sp"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </LinearLayout>
